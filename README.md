@@ -2,7 +2,7 @@
 
 ## Installation
 
-    pip install addok-fr
+    pip install addok-es
 
 
 ## Configuration
@@ -11,5 +11,5 @@
 
     PROCESSORS_PYPATHS = [
         …,
-        'addok_fr.phonemicize'
+        'addok_es.phonemicize'
     ]

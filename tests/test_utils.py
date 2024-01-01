@@ -1,7 +1,7 @@
 import pytest
 
 from addok.helpers.text import Token
-from addok_fr.utils import phonemicize
+from addok_es.utils import phonemicize
 
 
 @pytest.mark.parametrize('input,output', [

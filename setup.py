@@ -19,11 +19,11 @@ with open('requirements.txt', encoding='utf-8') as reqs:
     install_requires = [l for l in reqs.read().split('\n') if is_pkg(l)]
 
 setup(
-    name='addok-fr',
+    name='addok-es',
     version=".".join(map(str, VERSION)),
     description="Add French specific string processors.",
     long_description=long_description,
-    url="https://github.com/addok/addok-fr",
+    url="https://github.com/addok/addok-es",
     author='Yohan Boniface',
     author_email="yohan.boniface@data.gouv.fr",
     license='WTFPL',
@@ -45,5 +45,5 @@ setup(
     install_requires=install_requires,
     extras_require={'test': ['pytest']},
     include_package_data=True,
-    entry_points={'addok.ext': ['fr=addok_fr']},
+    entry_points={'addok.ext': ['fr=addok_es']},
 )
